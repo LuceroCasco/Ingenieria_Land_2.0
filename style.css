@@ -1,0 +1,94 @@
+<style>
+    body {
+        background: url("https://png.pngtree.com/thumb_back/fw800/background/20200318/pngtree-tropical-plant-blue-purple-neon-effect-leaves-business-background-image_331974.jpg") center center fixed;
+        background-size: cover;
+        background-repeat: no-repeat;
+        margin: 0;
+        height: 80vh;
+        text-align: center;
+    }
+
+    h1 {
+        -webkit-text-stroke: 0.1px black;
+        color: white;
+        border-bottom: none;
+        margin-bottom: 0;
+        font-size: 36px;
+        font-family: Stencil;
+        text-shadow: 12px 12px 12px black;
+    }
+
+    h2 {
+        -webkit-text-stroke: 0.1px black;
+        color: white;
+        border-bottom: none;
+        margin-bottom: 0;
+        font-family: Stencil;
+        font-size: 28px;
+        text-shadow: 12px 12px 12px black;
+    }
+
+    form {
+        text-align: center;
+        padding: 5px;
+        border: 1px solid #fff;
+        border-radius: 15px;
+        background-color: rgba(0, 0, 0, 0.7); /* Fondo semitransparente en el formulario */
+        box-shadow: 0 0 1px rgba(0, 0, 0, 0.1);
+        width: 50%;
+        color: white;
+    }
+
+    label {
+        margin-top: 10px;
+    }
+
+    input,
+    select,
+    textarea {
+        width: 30%;
+        padding: 10px;
+        margin: 10px 0;
+        border: 2px solid #ccc;
+        border-radius: 15px;
+        font-size: 12px;
+    }
+
+    textarea {
+        height: 40px;
+    }
+
+    input[type="submit"] {
+        align: center;
+        background-color: #BC37C2;
+        color: #ffffff;
+        border: none;
+        border-radius: 15px;
+        width: 95%;
+        padding: 10px 10px;
+        font-size: 14px;
+        cursor: pointer;
+        font-family: "Stencil";
+    }
+
+    input[type="submit"]:hover {
+        background-color: purple;
+    }
+
+    .elem-group {
+        width: 50%; /* Puedes ajustar el ancho según tus necesidades */
+    }
+
+    .elem-group input {
+        width: 50%;
+        padding: 10px;
+        margin: 10px 0;
+        border: 2px solid #ccc;
+        border-radius: 3px;
+        font-size: 12px;
+    }
+	video {
+        max-width: 70%; /* Ajustar el tamaño del video según el contenedor */
+        height: auto;
+    }
+</style>
