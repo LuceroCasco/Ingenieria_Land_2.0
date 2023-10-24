@@ -37,3 +37,8 @@ async function startQRScanner() {
 }
 
 startQRScanner();
+    document.getElementById("accept-button").addEventListener("click", function() {
+        // Aquí puedes colocar el código que deseas ejecutar cuando se hace clic en el botón "Aceptar".
+        // Por ejemplo, puedes redirigir al usuario a otra página o realizar alguna otra acción.
+        alert("Código QR aceptado");
+    });
